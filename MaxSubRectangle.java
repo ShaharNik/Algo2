@@ -14,14 +14,6 @@ public class MaxSubRectangle
 	{ 
 		MaxSubRectangle.ROW = data.length;
 		MaxSubRectangle.COL = data[0].length;
-		
-		 int[][] converted = new int[100][100];
-		 for (int i = 0; i < 3; i++) {
-			for (int j = 0; j < data[i].length * data.length; j++) {
-				converted[data[i][j]][data[i][j]] = data[i][2];
-				
-			}
-		}
 		maxSumRectangle(data);
 	}
 	// -----========== Getters ===========--------
